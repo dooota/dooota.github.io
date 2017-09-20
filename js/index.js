@@ -200,6 +200,15 @@ class G2S {
 			'width' : w ,
 			'height' : h ,
 		})
+		if( !this.IsPC() ) {
+			$('.cover').css({
+				'backgroundPositionY': -100,
+				'background-size': '310%',
+			})
+			$('.section_img').css('backgroundPositionY',0)
+			$('.testimonials').css('backgroundPositionY',0)
+			$('.second').css('backgroundPositionY',0)
+		}
 	}
 
 	//获取主内容块数据

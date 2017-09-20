@@ -60,6 +60,11 @@
 	width: 748px;
 }
 
+/*内容区的展示图*/
+.section_img {
+	background-attachment:scroll;
+}
+
 /*work*/
 .work_menu {
 	width: 748px;
@@ -110,6 +115,9 @@
 }
 
 /*testimonials*/
+.testimonials {
+	background-attachment: scroll;
+}
 .testimonials_text {
 	width: 748px;
 }
