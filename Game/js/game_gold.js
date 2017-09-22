@@ -10,7 +10,7 @@ class DrawGold{
 	}
 
 	//绘制金币
-	draw(g,data) {
+	draw(g, data) {
 		for(let i = 0; i<data.length; i++) {
 			g.drawImage(
 							this.p,
@@ -21,8 +21,7 @@ class DrawGold{
 							data[i].l,
 							data[i].t,
 							data[i].w,
-							data[i].h,
-			)
+							data[i].h)
 		}
 	}
 
